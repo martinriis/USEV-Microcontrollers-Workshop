@@ -44,6 +44,8 @@ float voltage = sensorValue * (3.3 / 1023.0);
 
 [Pin Interrupts](https://thekurks.net/blog/2016/4/25/using-interrupts)
 
+[Knob (potentiometer servo control)](https://www.arduino.cc/en/Tutorial/Knob)
+
 ### Advanced
 **Underneath Arduino Functions**
 The following are links to the source code for many of the common Arduino functions including `digitalWrite()` and `analogRead()`. This will help show you why Arduino functions are not ideal for timing critical tasks. Note, these examples are for the AVR microcontrollers on boards such as the Arduino Uno, as they're the simplest to follow.
@@ -52,3 +54,5 @@ The following are links to the source code for many of the common Arduino functi
 - [Serial Console](https://github.com/arduino/ArduinoCore-avr/blob/master/cores/arduino/HardwareSerial.cpp)
 
 [Timer Interrupts](https://github.com/stm32duino/wiki/wiki/HardwareTimer-library)
+
+(SparkFun Advanced Programming)[https://cdn.sparkfun.com/assets/resources/2/9/18AdvancedProgramming.pdf]
