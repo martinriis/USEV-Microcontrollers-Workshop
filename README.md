@@ -17,6 +17,8 @@ This document walks you through getting the board support packages installed for
 
 [Getting Started Guide](../main/Getting%20Started%20with%20Arduino%20on%20STM32.pdf)
 
+[Link to STM32 boards manager files](https://raw.githubusercontent.com/stm32duino/BoardManagerFiles/master/STM32/package_stm_index.json)
+
 ## Getting Started with Arduino for TinkerCAD
 This document guides you through getting a blink sketch running in Autodesk TinkerCAD.
 
