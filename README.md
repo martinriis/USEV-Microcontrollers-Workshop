@@ -29,15 +29,19 @@ We've selected a range of tutorials that you might like to try and sorted them i
 
 ### Beginner
 GPIO
+
 ADC
-Serial Monitor
+
+[Serial Monitor](https://www.arduino.cc/en/Tutorial/BuiltInExamples/DigitalReadSerial)
+
+[Serial Plotter](https://www.arduino.cc/en/Tutorial/BuiltInExamples/AnalogReadSerial): When running this example, open the serial plotter instead of the serial monitor, this will plot the ADC value in real time onto a graph. This can be very useful for easily capturing data from a sensor. In TinkerCAD, this is a graph icon at the bottom right of the screen, only visable when the serial monitor is open. In the Arduino IDE, this can be accessed by selecting Tools -> Serial Plotter.
 
 ### Intermediate
 PWM
 
 ### Advanced
 **Underneath Arduino Functions**
-The following are links to the source code for many of the common Arduino functions including `digitalWrite()` and `analogRead()`. This will help show you why Arduino functions are not ideal for timing critical tasks. Note, these examples are for the AVR microcontrollers on boards such as the Arduino Uno.
+The following are links to the source code for many of the common Arduino functions including `digitalWrite()` and `analogRead()`. This will help show you why Arduino functions are not ideal for timing critical tasks. Note, these examples are for the AVR microcontrollers on boards such as the Arduino Uno, as they're the simplest to follow.
 - [Digital I/O](https://github.com/arduino/ArduinoCore-avr/blob/master/cores/arduino/wiring_digital.c)
 - [Analog Input](https://github.com/arduino/ArduinoCore-avr/blob/master/cores/arduino/wiring_analog.c)
 - [Serial Console](https://github.com/arduino/ArduinoCore-avr/blob/master/cores/arduino/HardwareSerial.cpp)
