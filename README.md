@@ -1,4 +1,4 @@
-# USEV-Microcontrollers-Workshop
+# USEV Microcontrollers Workshop
 Repository containing files and links associated with the USEV microcontrollers workshop
 
 Following the session on Wednesday 28<sup>th</sup> the recordings of the three sessions will be uploaded to USEV's YouTube channel. Links will be posted below when the videos are up!
