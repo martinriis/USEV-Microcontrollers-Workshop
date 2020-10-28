@@ -4,7 +4,7 @@ Repository containing files and links associated with the USEV microcontrollers 
 Following the session on Wednesday 28<sup>th</sup> the recordings of the three sessions will be uploaded to USEV's YouTube channel. Links will be posted below when the videos are up!
 
 ## Presentation
-[Presentation Slides]() (awaiting upload)
+[Presentation Slides](../main/Microcontroller%20Workshop%20Presentation%202020.pdf)
 
 ## Coding Demo
 This is a link to the coding demo I went through during the Wednesday session. 
@@ -44,11 +44,11 @@ float voltage = sensorValue * (3.3 / 1023.0);
 
 [Pin Interrupts](https://thekurks.net/blog/2016/4/25/using-interrupts)
 
-[Timer Interrupts](https://github.com/stm32duino/wiki/wiki/HardwareTimer-library)
-
 ### Advanced
 **Underneath Arduino Functions**
 The following are links to the source code for many of the common Arduino functions including `digitalWrite()` and `analogRead()`. This will help show you why Arduino functions are not ideal for timing critical tasks. Note, these examples are for the AVR microcontrollers on boards such as the Arduino Uno, as they're the simplest to follow.
 - [Digital I/O](https://github.com/arduino/ArduinoCore-avr/blob/master/cores/arduino/wiring_digital.c)
 - [Analog Input](https://github.com/arduino/ArduinoCore-avr/blob/master/cores/arduino/wiring_analog.c)
 - [Serial Console](https://github.com/arduino/ArduinoCore-avr/blob/master/cores/arduino/HardwareSerial.cpp)
+
+[Timer Interrupts](https://github.com/stm32duino/wiki/wiki/HardwareTimer-library)
