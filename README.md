@@ -28,16 +28,23 @@ This time will give you the oppertunity to try out coding for Arduino either usi
 We've selected a range of tutorials that you might like to try and sorted them into three levels: Beginner, Intermediate and Advanced.
 
 ### Beginner
-GPIO
+First work throught the relevent getting started guide.
 
-ADC
+[ADC](https://www.arduino.cc/en/Tutorial/BuiltInExamples/ReadAnalogVoltage): The equation on line 24 to calculate the voltage based on an ADC value will be different if you are using an STM32 as the maximum ADC pin voltage is 3.3V instead of 5V on the Arduino Uno. Replace line 24 with:
+```
+float voltage = sensorValue * (3.3 / 1023.0);
+```
 
 [Serial Monitor](https://www.arduino.cc/en/Tutorial/BuiltInExamples/DigitalReadSerial)
 
 [Serial Plotter](https://www.arduino.cc/en/Tutorial/BuiltInExamples/AnalogReadSerial): When running this example, open the serial plotter instead of the serial monitor, this will plot the ADC value in real time onto a graph. This can be very useful for easily capturing data from a sensor. In TinkerCAD, this is a graph icon at the bottom right of the screen, only visable when the serial monitor is open. In the Arduino IDE, this can be accessed by selecting Tools -> Serial Plotter.
 
 ### Intermediate
-PWM
+[PWM](https://www.arduino.cc/en/Tutorial/BuiltInExamples/Fade): Before starting on this tutorial, ready [this guide](https://www.arduino.cc/en/Tutorial/Foundations/PWM) on the theory behind PWM.
+
+[Pin Interrupts](https://thekurks.net/blog/2016/4/25/using-interrupts)
+
+[Timer Interrupts](https://github.com/stm32duino/wiki/wiki/HardwareTimer-library)
 
 ### Advanced
 **Underneath Arduino Functions**
