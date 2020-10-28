@@ -55,4 +55,4 @@ The following are links to the source code for many of the common Arduino functi
 
 [Timer Interrupts](https://github.com/stm32duino/wiki/wiki/HardwareTimer-library)
 
-(SparkFun Advanced Programming)[https://cdn.sparkfun.com/assets/resources/2/9/18AdvancedProgramming.pdf]
+[SparkFun Advanced Programming](https://cdn.sparkfun.com/assets/resources/2/9/18AdvancedProgramming.pdf)
