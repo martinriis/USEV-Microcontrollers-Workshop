@@ -20,9 +20,6 @@ SFEVL53L1X distanceSensor;
 // Variable to store raw distance value
 int rawDistance;
 
-float a = 6.862;
-float result;
-
 // Setup function runs once at startup or following reset
 void setup()
 {
@@ -32,7 +29,6 @@ void setup()
 	// USB serial transmission setup function
 	// Argument is the speed of the transmission in bits per second
 	Serial2.begin(115200);
-	
 }
 
 // Loop functions loops indefinitely
@@ -43,7 +39,6 @@ void loop()
 
 	// Wait for data to be ready
 	while(!distanceSensor.checkForDataReady()) {
-		Serial2.println("Data unavailable");
 		// Wait for 5 ms is data is not ready
 		delay(5);
 	}
@@ -51,12 +46,11 @@ void loop()
 	// Gets a distance measurement from the sensor
 	rawDistance = distanceSensor.getDistance();
 	// Temporarily stops sensor 
+	distanceSensor.clearInterrupt();
 	distanceSensor.stopRanging();
 
 	// Prints distance measurement to serial console
 	Serial2.print("Distance = ");
 	Serial2.print(rawDistance);
 	Serial2.println(" mm");
-
-	float result = float(rawDistance) * a;
 }
